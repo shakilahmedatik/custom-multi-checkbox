@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.list-items {
+  position: relative;
+  margin-top: 1px;
+  border: 1px solid #C9C9C9;
+  /* display: none; */
+}
+
+.list-items .item {
+  list-style: none;
+}
+
+.checkbox .check-icon {
+  transform: scale(0);
+  background-color: white;
+}
